@@ -1,0 +1,41 @@
+@media (max-width: 1942px) {
+  body {
+    width: 1600px;
+  }
+  .container__headline {
+    padding-left: 300px;
+  }
+  .headline__menu {
+    padding-top: 69px;
+    padding-bottom: 71px;
+  }
+  .desing__title {
+    padding-top: 71px;
+  }
+  .desing__text {
+    padding-top: 50px;
+    padding-bottom: 55px;
+  }
+  .container__about {
+    padding: 100px 0;
+    margin: 0 auto;
+  }
+  .work__content {
+    width: 540px;
+    padding: 90px 0 57px;
+    margin: 0 auto;
+  }
+  .work__image {
+    padding: 0 0 100px 255px;
+  }
+  footer {
+    height: 136px;
+  }
+  .info__title {
+    padding: 40px 0 20px 256px;
+  }
+
+  .info__text {
+    padding-left: 256px;
+  }
+}
