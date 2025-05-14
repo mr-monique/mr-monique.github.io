@@ -88,13 +88,13 @@ header {
 /*Main*/
 .container__project {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 40px;
   padding: 100px 0;
   flex-wrap: wrap;
   height: 250px;
   background-color: #34547a;
+  padding-left: 509px;
 }
 /*Icons*/
 .project__item {
