@@ -89,9 +89,9 @@ header {
 .container__project {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 40px;
   padding: 100px 0;
-  flex-wrap: wrap;
   height: 250px;
   background-color: #34547a;
   padding-left: 509px;
