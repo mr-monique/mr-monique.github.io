@@ -139,37 +139,108 @@ footer {
 }
 @media (max-width: 1280px) {
  /*Header Block*/
+ body {
+  font-size: 14px;
+ }
 header {
-  height: 700px;
-  background-color: #eeeff1;
+  height: 500px;
 }
 
 .container__headline {
-  padding-left: 399px;
+  padding-left: 180px;
 }
 
 .headline__menu {
-  padding-top: 79px;
-  padding-bottom: 81px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .menu__items {
+  gap: 30px;
+}
+/*Desing*/
+.desing__title {
+  padding-top: 40px;
+  font-size: 28px;
+}
+
+.desing__text {
+  width: 540px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.btn {
+  padding: 15px 30px;
+}
+
+/*Aside*/
+.container__about {
+  padding: 60px 0 60px 280px;
+}
+
+.about__title {
+  font-size: 28px;
+  padding-bottom: 40px;
+}
+
+/*Main*/
+.container__project {
+  gap: 20px;
+  padding: 30px 0;
+  padding-left: 160px;
+}
+/*Icons*/
+.project__item {
+  gap: 5px;
+}
+
+.project__item img {
+  width: 40px;
+  height: 40px;
+}
+
+.project__text h3 {
+  font-size: 18px;
+}
+
+.project__text p {
+  font-size: 14px;
+}
+
+/*works*/
+.work__content {
+  width: 540px;
+  padding: 60px 0 60px 240px;
+}
+.container__work {
+  height: 600px;
+}
+.content__title {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+/*Image*/
+.work__image {
   display: flex;
-  gap: 45px;
+  width: 400px;
+  height: 300px;
+  padding-left: 230px;
 }
 
-.menu__item {
-  letter-spacing: 1.6px;
+/*Footer*/
+footer {
+  height: 90px;
 }
 
-.menu__item a {
-  color: black;
-  text-decoration: none;
+.info__title {
+  padding: 20px 0 10px 230px;
+  font-size: 18px;
 }
 
-.menu__item a:hover {
-  color: #34547a;
-  font-weight: 500;
+.info__text {
+  padding-left: 230px;
+  font-size: 12px;
 }
 }
 @media (max-width: 1024px) {
