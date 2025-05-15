@@ -1,41 +1,279 @@
-@media (max-width: 1942px) {
-  body {
-    width: 1600px;
-  }
-  .container__headline {
-    padding-left: 300px;
-  }
-  .headline__menu {
-    padding-top: 69px;
-    padding-bottom: 71px;
-  }
-  .desing__title {
-    padding-top: 71px;
-  }
-  .desing__text {
-    padding-top: 50px;
-    padding-bottom: 55px;
-  }
-  .container__about {
-    padding: 100px 0;
-    margin: 0 auto;
-  }
-  .work__content {
-    width: 540px;
-    padding: 90px 0 57px;
-    margin: 0 auto;
-  }
-  .work__image {
-    padding: 0 0 100px 255px;
-  }
-  footer {
-    height: 136px;
-  }
-  .info__title {
-    padding: 40px 0 20px 256px;
-  }
 
-  .info__text {
-    padding-left: 256px;
-  }
+@media (max-width: 1680px) {
+ /*Header Block*/
+header {
+  height: 700px;
+}
+
+.container__headline {
+  padding-left: 309px;
+}
+
+.headline__menu {
+  padding-top: 74px;
+  padding-bottom: 71px;
+}
+
+.menu__items {
+  display: flex;
+  gap: 45px;
+}
+
+/*Aside*/
+.container__about {
+  padding: 112px 0 100px 570px;
+}
+/*Main*/
+.container__project {
+  height: 220px;
+  padding-left: 399px;
+}
+/*works*/
+.work__content {
+  padding: 100px 0 57px 580px;
+}
+/*Image*/
+.work__image {
+  padding: 0 0 100px 305px;
+}
+
+/*Footer*/
+.info__title {
+  padding: 50px 0 20px 306px;
+}
+
+.info__text {
+  padding-left: 306px;
+}
+
+}
+@media (max-width: 1440px) {
+ /*Header Block*/
+ body {
+  font-size: 14px;
+ }
+header {
+  height: 500px;
+}
+
+.container__headline {
+  padding-left: 200px;
+}
+
+.headline__menu {
+  padding-top: 49px;
+  padding-bottom: 40px;
+}
+
+.menu__items {
+  gap: 35px;
+}
+.desing__title {
+  padding-top: 40px;
+  font-size: 40px;
+}
+.btn {
+  padding: 18px 30px;
+}
+.container__about {
+  width: 440px;
+  padding: 80px 0 80px 350px;
+}
+.about__title {
+  font-size: 28px;
+}
+/*Main*/
+.container__work {
+  height: 750px;
+}
+.container__project {
+  gap: 30px;
+  padding: 60px 0;
+  height: 200px;
+  padding-left: 180px;
+}
+/*Icons*/
+.project__item {
+  gap: 5px;
+}
+
+.project__item img {
+  width: 40px;
+  height: 40px;
+}
+
+.project__text h3 {
+  font-size: 18px;
+}
+.work__content {
+  width: 400px;
+  padding: 60px 0 50px 360px;
+}
+.content__title {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+/*Image*/
+.work__image {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  padding: 0 0 60px 180px;
+}
+
+/*Footer*/
+footer {
+  height: 120px;
+}
+
+.info__title {
+  padding: 30px 0 20px 180px;
+  font-size: 18px;
+}
+
+.info__text {
+  padding-left: 180px;
+  font-size: 12px;
+}
+
+}
+@media (max-width: 1280px) {
+ /*Header Block*/
+header {
+  height: 700px;
+  background-color: #eeeff1;
+}
+
+.container__headline {
+  padding-left: 399px;
+}
+
+.headline__menu {
+  padding-top: 79px;
+  padding-bottom: 81px;
+}
+
+.menu__items {
+  display: flex;
+  gap: 45px;
+}
+
+.menu__item {
+  letter-spacing: 1.6px;
+}
+
+.menu__item a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item a:hover {
+  color: #34547a;
+  font-weight: 500;
+}
+}
+@media (max-width: 1024px) {
+ /*Header Block*/
+header {
+  height: 700px;
+  background-color: #eeeff1;
+}
+
+.container__headline {
+  padding-left: 399px;
+}
+
+.headline__menu {
+  padding-top: 79px;
+  padding-bottom: 81px;
+}
+
+.menu__items {
+  display: flex;
+  gap: 45px;
+}
+
+.menu__item {
+  letter-spacing: 1.6px;
+}
+
+.menu__item a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item a:hover {
+  color: #34547a;
+  font-weight: 500;
+}
+}
+@media (max-width: 768px) {
+ /*Header Block*/
+header {
+  height: 700px;
+  background-color: #eeeff1;
+}
+
+.container__headline {
+  padding-left: 399px;
+}
+
+.headline__menu {
+  padding-top: 79px;
+  padding-bottom: 81px;
+}
+
+.menu__items {
+  display: flex;
+  gap: 45px;
+}
+
+.menu__item {
+  letter-spacing: 1.6px;
+}
+
+.menu__item a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item a:hover {
+  color: #34547a;
+  font-weight: 500;
+}
+}
+ @media (max-width: 375px) {
+ /*Header Block*/
+header {
+  height: 700px;
+  background-color: #eeeff1;
+}
+
+.container__headline {
+  padding-left: 399px;
+}
+
+.headline__menu {
+  padding-top: 79px;
+  padding-bottom: 81px;
+}
+
+.menu__items {
+  display: flex;
+  gap: 45px;
+}
+
+.menu__item {
+  letter-spacing: 1.6px;
+}
+
+.menu__item a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item a:hover {
+  color: #34547a;
+  font-weight: 500;
+}
 }
