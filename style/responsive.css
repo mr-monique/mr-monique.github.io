@@ -245,38 +245,118 @@ footer {
 }
 @media (max-width: 1024px) {
  /*Header Block*/
+ body  {
+  font-size: 12px;
+ }
 header {
-  height: 700px;
-  background-color: #eeeff1;
+  height: 400px;
 }
 
 .container__headline {
-  padding-left: 399px;
+  padding-left: 100px;
 }
 
 .headline__menu {
-  padding-top: 79px;
-  padding-bottom: 81px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .menu__items {
-  display: flex;
-  gap: 45px;
+  gap: 20px;
+  font-size: 12px;
 }
 
 .menu__item {
-  letter-spacing: 1.6px;
+  letter-spacing: 1.2px;
 }
 
-.menu__item a {
-  color: black;
-  text-decoration: none;
+/*Desing*/
+.desing__title {
+  font-size: 28px;
 }
 
-.menu__item a:hover {
-  color: #34547a;
-  font-weight: 500;
+.desing__text {
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom:50px;
 }
+
+.btn {
+  padding: 12px 20px;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+}
+
+/*Aside*/
+.container__about {
+  width: 400px;
+  padding: 50px 0 50px 200px;
+}
+
+.about__title {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+/*Main*/
+.container__project {
+  gap: 20px;
+  padding: 0;
+  padding-left: 120px;
+}
+/*Icons*/
+.project__item {
+  gap: 5px;
+}
+
+.project__item img {
+  width: 30px;
+  height: 30px;
+}
+
+.project__text h3 {
+  font-size: 14px;
+}
+
+.project__text p {
+  font-size: 10px;
+}
+
+/*works*/
+.container__work {
+  height: 550px;
+}
+.work__content {
+  width: 400px;
+  padding: 50px 0 5px 200px;
+}
+.content__title {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+/*Image*/
+.work__image {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  padding: 20px 0 20px 120px;
+}
+
+/*Footer*/
+footer {
+  height: 80px;
+}
+
+.info__title {
+  padding: 20px 0 10px 120px;
+  font-size: 16px;
+}
+
+.info__text {
+  padding-left: 120px;
+  font-size: 12px;
+}
+
 }
 @media (max-width: 768px) {
  /*Header Block*/
