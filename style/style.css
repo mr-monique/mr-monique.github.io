@@ -9,22 +9,22 @@ body {
 
 /*Header Block*/
 header {
-  height: 700px;
+  height: auto;
   background-color: #eeeff1;
 }
 
 .container__headline {
+  width: 100%;
   padding-left: 399px;
 }
 
 .headline__menu {
   padding-top: 79px;
-  padding-bottom: 81px;
 }
 
 .menu__items {
   display: flex;
-  gap: 45px;
+  gap: 46px;
 }
 
 .menu__item {
@@ -43,7 +43,7 @@ header {
 
 /*Desing*/
 .desing__title {
-  padding-top: 81px;
+  padding-top: 162px;
   font-size: 48px;
   color: black;
 }
@@ -60,6 +60,7 @@ header {
   padding: 24.5px 41px;
   background-color: #34547a;
   letter-spacing: 1.6px;
+  margin-bottom: 141px;
 }
 
 .btn:hover {
@@ -69,7 +70,9 @@ header {
 /*Aside*/
 .container__about {
   width: 540px;
-  padding: 112px 0 100px 690px;
+  height: 147px;
+  margin: 0 auto;
+  padding: 112px 0 100px;
 }
 
 .about__title {
@@ -81,6 +84,7 @@ header {
   padding-bottom: 50px;
   color: black;
 }
+
 .about__text {
   text-align: center;
 }
@@ -88,14 +92,15 @@ header {
 /*Main*/
 .container__project {
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 40px;
   padding: 100px 0;
-  height: 250px;
+  height: auto;
   background-color: #34547a;
-  padding-left: 509px;
 }
+
 /*Icons*/
 .project__item {
   display: flex;
@@ -121,13 +126,17 @@ header {
 
 /*works*/
 .container__work {
+  width: 100%;
   height: 1004px;
   background-color: #eeeff1;
 }
+
 .work__content {
   width: 540px;
-  padding: 100px 0 57px 690px;
+  padding: 100px 0 57px;
+  margin: 0 auto;
 }
+
 .content__title {
   display: flex;
   justify-content: center;
@@ -137,17 +146,22 @@ header {
   padding-bottom: 50px;
   color: black;
 }
+
 .content__text {
   text-align: center;
 }
+
 /*Image*/
 .work__image {
-  padding: 0 0 100px 405px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
 }
+
 
 /*Footer*/
 footer {
-  height: 151px;
+  height: auto;
   background-color: #34547a;
 }
 
@@ -160,7 +174,8 @@ footer {
 }
 
 .info__text {
-  padding-left: 406px;
   font-size: 13px;
   color: white;
+  padding-left: 406px;
+  padding-bottom: 50px;
 }
